@@ -19,3 +19,17 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 export const storage = getStorage(app);
 export const analytics = getAnalytics(app);
+
+//# Initialize git if not already
+//git init
+
+//# Add GitHub remote
+//git remote add origin https://github.com/Woodward-Alex/Lyra-Stack.git
+
+//# Create initial commit
+//git add .
+//git commit -m "Initial Lyra Stack setup with Firebase"
+
+//# Push to GitHub
+//git branch -M main
+//git push -u origin main
